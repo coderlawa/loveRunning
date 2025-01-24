@@ -49,6 +49,7 @@ h1{
     list-style-type: none;
 }
 
+/* child selector [ > ]used */
 #menu > li{
     margin-bottom: 1em;
 }
@@ -69,7 +70,7 @@ nav{
     top: 100%;
 }
 
-/* Nav toggle */
+/* Nav toggle (sibling selector [ ~ ] used)  */
 #nav-toggle:checked~nav{
     display: block;
 }
@@ -133,6 +134,7 @@ footer{
 
 /* Media query: laptops and desktops, (992px and up) */
 @media screen and (min-width: 992px){
+    /* menu ID decendant selector [**space**] used */
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }

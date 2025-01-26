@@ -38,6 +38,7 @@ header{
     align-items: baseline;
 }
 
+/* header ID decendant selector [**space**] used */
 header a{
     color: inherit;
     text-decoration: none;
@@ -233,7 +234,6 @@ hr{
 
 /* Media query: laptops and desktops, (992px and up) */
 @media screen and (min-width: 992px){
-    /* menu ID decendant selector [**space**] used */
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
